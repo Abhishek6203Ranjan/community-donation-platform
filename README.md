@@ -99,24 +99,34 @@ mvn clean install
 
 🏗️ Project Structure 
 
-library-management/ 
-├── src/ 
-│   └── main/ 
-│       ├── java/ 
-│       │   └── com/ 
-│       │       └── library/ 
-│       │           ├── dao/ 
-│       │           │   ├── UseDao.java 
-│       │           │    
-│       │           ├── model/ 
-│       │           │   | 
-│       │           │   └── User.java 
-│       │           └── util/ 
-│       │               └── DatabaseConnection.java 
-│       └── resources/ 
-├── pom.xml 
-└── README.md 
- 
+community-donation-platform/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── user/
+│       │           ├── controller/
+│       │           │   └── UserController.java
+│       │           ├── dao/
+│       │           │   └── UseDao.java
+│       │           ├── model/
+│       │           │   └── User.java
+│       │           └── service/
+│       │               └── UserService.java
+│       ├── webapp/
+│       │   ├── HTML/
+│       │   │   ├── login.html
+│       │   │   ├── registration.html
+│       │   │   └── profile.html
+│       │   ├── javaScript/
+│       │   │   ├── login.js
+│       │   │   └── registration.js
+│       │   └── CSS/
+│       │       ├── login.css
+│       │       ├── registration.css
+├── pom.xml
+└── schema.sql
+
 
 💻 Usage 
 
